@@ -3,6 +3,7 @@
   <head>
     <title>She Codes Plus</title>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="src/styles.css" rel="stylesheet" type="text/css" />
   </head>
 
@@ -15,10 +16,32 @@
       Create a login form with username field, a password field and a login
       button
     </p>
+    <form>
+      <div class="form-name">
+      <label for="name">Enter your name: </label>
+      <input type="text" name="name" id="name" />
+        </div>
+      </br>
+      <div class="form-email">
+      <label for="email">Enter your email: </label>
+      <input type="text" email="email" id="email" />
+      <div>
+      <input type="submit" value="Submit!">
+    </form>
 
     <h3>HTML Challenge 2</h3>
     <p>Import Bootstrap and apply the form component styling</p>
-
+    <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address: </label>
+          <input type="email" class="form-control" id="exampleInputEmail1" >
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password: </label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
     <script src="src/index.js"></script>
   </body>
 </html>
